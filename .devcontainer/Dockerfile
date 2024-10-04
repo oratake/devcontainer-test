@@ -16,3 +16,6 @@ RUN su node -c "umask 0002 && npm install -g ${NODE_MODULES}" \
 
 # [Optional] Uncomment if you want to install more global node packages
 # RUN su node -c "npm install -g <your-package-list -here>"
+
+# Bunをインストール
+RUN su node -c "npm install -g bun"
